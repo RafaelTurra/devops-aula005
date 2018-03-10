@@ -5,11 +5,11 @@ def inicializar():
         for j in range(3):
             linha.append(".")
         tab.append(linha)
-    returntab
+    return tab
 
 def main( ):
     jogo = inicializar( )
     print(jogo)
-
-if__name__ == "__main__":
+    
+if __name__ == "__main__":
     main()
